@@ -1,0 +1,12 @@
+alias docker='gbt_docker'
+alias mysql='gbt_mysql'
+alias ssh='gbt_ssh'
+alias su='gbt_su'
+alias sudo='gbt_sudo'
+alias vagrant='gbt_vagrant'
+
+alias gbt___hint='echo -e "\n GBT will rule the World ! ! ! \n"'
+
+export GBT__HOME='/usr/local/share/gbt'
+source "$GBT__HOME/sources/prompt_forwarding/local"
+
