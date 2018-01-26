@@ -12,7 +12,7 @@ $script_docker = <<SCRIPT
   add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   apt-get update
   apt-get install -y docker-ce
-  docker run --name percona --restart always -e MYSQL_ROOT_PASSWORD=my-secret-pw-d percona:latest
+  docker run --name percona --restart always -e MYSQL_ROOT_PASSWORD=my-secret-pw -d percona:latest
   usermod -aG docker vagrant
 SCRIPT
 

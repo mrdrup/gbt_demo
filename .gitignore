@@ -1,3 +1,5 @@
-t1
-tty*
+.DS_Store
 .vagrant/
+gbt_demo_raw.gif
+ttygif*
+ubuntu-xenial-16.04-cloudimg-console.log
